@@ -4,9 +4,9 @@ Task at hand is to parse CBOE PITCH messages to calculate the total volume.
  
 There are 3 types of messages that we are concerned with to calculate the volume 
  
-a> AddOrder(A,d) 
-b> OrdersExecuted(E) 
-c> TradeMessage(P) 
+a> AddOrder(A,d)  
+b> OrdersExecuted(E)  
+c> TradeMessage(P,r)  
   
   
 TradeMessages are straightforward they have both the long/short stock symbol and the quantity 
